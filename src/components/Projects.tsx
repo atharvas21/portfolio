@@ -13,58 +13,31 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Saladelicious',
       description:
-        'A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.',
+        'A full-stack salad delivery with payment integration, admin dashboard, and real-time inventory management.',
       image: '/project-placeholder-1.jpg',
-      tags: ['Next.js', 'TypeScript', 'Stripe', 'MongoDB'],
-      github: 'https://github.com/yourusername/project1',
-      demo: 'https://project1-demo.vercel.app',
+      tags: ['React', 'SpringBoot', 'MySQL'],
+      github: 'https://github.com/atharvas21/freshsalad-ecommerce',
+      demo: 'https://saladelicious.vercel.app/',
     },
     {
-      title: 'Social Media Dashboard',
+      title: 'Neighbourhood Events Platform',
       description:
-        'Analytics dashboard for social media metrics with data visualization and real-time updates.',
+        'GeoSpatial event platform connecting local communities with real-time event discovery and social features.',
       image: '/project-placeholder-2.jpg',
-      tags: ['React', 'Chart.js', 'Node.js', 'PostgreSQL'],
-      github: 'https://github.com/yourusername/project2',
-      demo: 'https://project2-demo.vercel.app',
+      tags: ['PostgreSQL', 'Supabase', 'React', 'TypeScript'],
+      github: '',
+      demo: '',
     },
     {
-      title: 'Task Management App',
+      title: 'ExpenseFlow- Expense Tracker',
       description:
-        'Collaborative task management application with drag-and-drop interface and team features.',
+        'Personal expense tracking application with budgeting, analytics, and multi-device sync.',
       image: '/project-placeholder-3.jpg',
-      tags: ['Next.js', 'Tailwind CSS', 'Prisma', 'tRPC'],
+      tags: ['Next.js', 'React', 'TailwindCSS', 'Supabase'],  
       github: 'https://github.com/yourusername/project3',
-      demo: 'https://project3-demo.vercel.app',
-    },
-    {
-      title: 'AI Chat Application',
-      description:
-        'Real-time chat application with AI-powered responses and modern UI/UX design.',
-      image: '/project-placeholder-4.jpg',
-      tags: ['React', 'OpenAI API', 'Socket.io', 'Express'],
-      github: 'https://github.com/yourusername/project4',
-      demo: 'https://project4-demo.vercel.app',
-    },
-    {
-      title: 'Portfolio CMS',
-      description:
-        'Content management system for portfolio websites with drag-and-drop builder.',
-      image: '/project-placeholder-5.jpg',
-      tags: ['Next.js', 'Sanity.io', 'TypeScript', 'Tailwind'],
-      github: 'https://github.com/yourusername/project5',
-      demo: 'https://project5-demo.vercel.app',
-    },
-    {
-      title: 'Weather Dashboard',
-      description:
-        'Beautiful weather application with forecasts, maps, and detailed weather information.',
-      image: '/project-placeholder-6.jpg',
-      tags: ['React', 'Weather API', 'Mapbox', 'Framer Motion'],
-      github: 'https://github.com/yourusername/project6',
-      demo: 'https://project6-demo.vercel.app',
+      demo: 'https://expense-tracker-lemon-two.vercel.app/',
     },
   ];
 
